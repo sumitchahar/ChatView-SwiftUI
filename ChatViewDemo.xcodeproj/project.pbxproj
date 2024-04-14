@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9536EDD22BCBF42200B2F856 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536EDCB2BCBF42200B2F856 /* ChatViewModel.swift */; };
+		9536EDD32BCBF42200B2F856 /* ChatViewMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536EDCD2BCBF42200B2F856 /* ChatViewMVVM.swift */; };
+		9536EDD42BCBF42200B2F856 /* ChatViewMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536EDCF2BCBF42200B2F856 /* ChatViewMessages.swift */; };
+		9536EDD52BCBF42200B2F856 /* DisplayMessageInsideScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536EDD02BCBF42200B2F856 /* DisplayMessageInsideScrollView.swift */; };
+		9536EDD62BCBF42200B2F856 /* TypingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536EDD12BCBF42200B2F856 /* TypingIndicatorView.swift */; };
 		95BA56782BC24A6B004DD7F7 /* ChatViewDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA56772BC24A6B004DD7F7 /* ChatViewDemoApp.swift */; };
 		95BA567A2BC24A6B004DD7F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA56792BC24A6B004DD7F7 /* ContentView.swift */; };
 		95BA567C2BC24A6E004DD7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BA567B2BC24A6E004DD7F7 /* Assets.xcassets */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9536EDCB2BCBF42200B2F856 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		9536EDCD2BCBF42200B2F856 /* ChatViewMVVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewMVVM.swift; sourceTree = "<group>"; };
+		9536EDCF2BCBF42200B2F856 /* ChatViewMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewMessages.swift; sourceTree = "<group>"; };
+		9536EDD02BCBF42200B2F856 /* DisplayMessageInsideScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayMessageInsideScrollView.swift; sourceTree = "<group>"; };
+		9536EDD12BCBF42200B2F856 /* TypingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypingIndicatorView.swift; sourceTree = "<group>"; };
 		95BA56742BC24A6B004DD7F7 /* ChatViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BA56772BC24A6B004DD7F7 /* ChatViewDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewDemoApp.swift; sourceTree = "<group>"; };
 		95BA56792BC24A6B004DD7F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +83,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9536EDCA2BCBF42200B2F856 /* ChatViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9536EDCB2BCBF42200B2F856 /* ChatViewModel.swift */,
+			);
+			path = ChatViewModel;
+			sourceTree = "<group>";
+		};
+		9536EDCC2BCBF42200B2F856 /* ChatViewMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				9536EDCD2BCBF42200B2F856 /* ChatViewMVVM.swift */,
+			);
+			path = ChatViewMVVM;
+			sourceTree = "<group>";
+		};
+		9536EDCE2BCBF42200B2F856 /* ChatSub_View */ = {
+			isa = PBXGroup;
+			children = (
+				9536EDCF2BCBF42200B2F856 /* ChatViewMessages.swift */,
+				9536EDD02BCBF42200B2F856 /* DisplayMessageInsideScrollView.swift */,
+			);
+			path = ChatSub_View;
+			sourceTree = "<group>";
+		};
 		95BA566B2BC24A6B004DD7F7 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +168,10 @@
 		95BA56A12BC24AD0004DD7F7 /* ChatView */ = {
 			isa = PBXGroup;
 			children = (
+				9536EDCE2BCBF42200B2F856 /* ChatSub_View */,
+				9536EDCA2BCBF42200B2F856 /* ChatViewModel */,
+				9536EDCC2BCBF42200B2F856 /* ChatViewMVVM */,
+				9536EDD12BCBF42200B2F856 /* TypingIndicatorView.swift */,
 				95BA56A22BC24AE3004DD7F7 /* ChatView.swift */,
 			);
 			path = ChatView;
@@ -270,7 +309,12 @@
 			files = (
 				95BA567A2BC24A6B004DD7F7 /* ContentView.swift in Sources */,
 				95BA56A32BC24AE3004DD7F7 /* ChatView.swift in Sources */,
+				9536EDD22BCBF42200B2F856 /* ChatViewModel.swift in Sources */,
 				95BA56782BC24A6B004DD7F7 /* ChatViewDemoApp.swift in Sources */,
+				9536EDD52BCBF42200B2F856 /* DisplayMessageInsideScrollView.swift in Sources */,
+				9536EDD42BCBF42200B2F856 /* ChatViewMessages.swift in Sources */,
+				9536EDD32BCBF42200B2F856 /* ChatViewMVVM.swift in Sources */,
+				9536EDD62BCBF42200B2F856 /* TypingIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
