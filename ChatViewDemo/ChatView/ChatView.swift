@@ -20,7 +20,7 @@ struct ChatView: View {
 
             Spacer()
             HStack {
-                TextField("Write something for ChatGPT", text: $prompt, axis: .vertical)
+                TextField("Write something for ChatGP", text: $prompt, axis: .vertical)
                     .padding(12)
                     .keyboardType(.default)
                     .background(Color(.systemGray6))
